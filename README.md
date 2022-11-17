@@ -1,2 +1,7 @@
-# School_District_Analysis
-Repository for Colorado school district data.  Uses Python 3.7.13
+# School District Analysis
+
+## Overview of Analysis
+In the attached analysis, we first read our .csv file that contained the student data into Jupyter Notebook.  Then, we prepared our data for analysis by removing all of the null and duplicated values.  We also converted some of the information from the dataframe into a data type that allowed us to manipulate it more easily.  Next, we generated some basic statistical data using the .describe() method to gain an intuition for our dataset.  We then used the .loc[] and .iloc[] methods to scan through the data and yield information about the math and reading scores of students in grades 9 through 12.  Finally, we used the .groupby() method to aggregate and compare data from the different schools.  For example, we aggregated the number of students in each school in our dataframe, and we also compared the budgets of charter schools and public schools.
+
+## Results and Possible Extensions of Analysis
+From the above analysis of the school data, we found that, on average, grades in math and reading steadily decline as a student gets older across both charter and public schools (i.e., the highest grades in math and reading were achieved by 9th graders and steadily decline throughout the rest of high school).  We also found that charter schools have, on average, a lower budget than public schools.  However, it is also to be noted that charter schools, on average, had students with higher grades in math.  This could lead to further analysis to determine if charter schools generally have lower budgets than public schools, as well as if charter schools generally yield students that have higher grades in math (given a larger dataset).  Also, we could see if charter schools generally have higher grades than public schools across all subjects (including the reading scores that we had available to us in our dataset). 
